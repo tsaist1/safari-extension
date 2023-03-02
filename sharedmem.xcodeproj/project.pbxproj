@@ -1,0 +1,827 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7041A18529B14DE10084CAED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7041A18429B14DE10084CAED /* AppDelegate.m */; };
+		7041A18929B14DE10084CAED /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 7041A18729B14DE10084CAED /* Main.html */; };
+		7041A18B29B14DE10084CAED /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7041A18A29B14DE10084CAED /* Icon.png */; };
+		7041A18D29B14DE10084CAED /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 7041A18C29B14DE10084CAED /* Style.css */; };
+		7041A18F29B14DE10084CAED /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 7041A18E29B14DE10084CAED /* Script.js */; };
+		7041A19229B14DE10084CAED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7041A19129B14DE10084CAED /* ViewController.m */; };
+		7041A19529B14DE10084CAED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7041A19329B14DE10084CAED /* Main.storyboard */; };
+		7041A19729B14DE20084CAED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7041A19629B14DE20084CAED /* Assets.xcassets */; };
+		7041A19929B14DE20084CAED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7041A19829B14DE20084CAED /* main.m */; };
+		7041A1A529B14DE20084CAED /* sharedmemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7041A1A429B14DE20084CAED /* sharedmemTests.m */; };
+		7041A1AF29B14DE20084CAED /* sharedmemUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7041A1AE29B14DE20084CAED /* sharedmemUITests.m */; };
+		7041A1B129B14DE20084CAED /* sharedmemUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7041A1B029B14DE20084CAED /* sharedmemUITestsLaunchTests.m */; };
+		7041A1B729B14DE20084CAED /* sharedmem Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7041A1B629B14DE20084CAED /* sharedmem Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7041A1BD29B14DE20084CAED /* SafariWebExtensionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7041A1BC29B14DE20084CAED /* SafariWebExtensionHandler.m */; };
+		7041A1C029B14DE20084CAED /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 7041A1BF29B14DE20084CAED /* _locales */; };
+		7041A1C229B14DE20084CAED /* images in Resources */ = {isa = PBXBuildFile; fileRef = 7041A1C129B14DE20084CAED /* images */; };
+		7041A1C429B14DE20084CAED /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 7041A1C329B14DE20084CAED /* manifest.json */; };
+		7041A1C629B14DE20084CAED /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 7041A1C529B14DE20084CAED /* background.js */; };
+		7041A1C829B14DE20084CAED /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 7041A1C729B14DE20084CAED /* content.js */; };
+		7041A1CA29B14DE20084CAED /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 7041A1C929B14DE20084CAED /* popup.html */; };
+		7041A1CC29B14DE20084CAED /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 7041A1CB29B14DE20084CAED /* popup.css */; };
+		7041A1CE29B14DE20084CAED /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 7041A1CD29B14DE20084CAED /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7041A1A129B14DE20084CAED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7041A17829B14DE10084CAED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7041A17F29B14DE10084CAED;
+			remoteInfo = sharedmem;
+		};
+		7041A1AB29B14DE20084CAED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7041A17829B14DE10084CAED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7041A17F29B14DE10084CAED;
+			remoteInfo = sharedmem;
+		};
+		7041A1B829B14DE20084CAED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7041A17829B14DE10084CAED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7041A1B529B14DE20084CAED;
+			remoteInfo = "sharedmem Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7041A1D629B14DE20084CAED /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7041A1B729B14DE20084CAED /* sharedmem Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7041A18029B14DE10084CAED /* sharedmem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sharedmem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7041A18329B14DE10084CAED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7041A18429B14DE10084CAED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7041A18829B14DE10084CAED /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		7041A18A29B14DE10084CAED /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		7041A18C29B14DE10084CAED /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		7041A18E29B14DE10084CAED /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		7041A19029B14DE10084CAED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7041A19129B14DE10084CAED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7041A19429B14DE10084CAED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7041A19629B14DE20084CAED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7041A19829B14DE20084CAED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7041A19A29B14DE20084CAED /* sharedmem.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = sharedmem.entitlements; sourceTree = "<group>"; };
+		7041A19B29B14DE20084CAED /* sharedmem.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = sharedmem.entitlements; sourceTree = "<group>"; };
+		7041A1A029B14DE20084CAED /* sharedmemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sharedmemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7041A1A429B14DE20084CAED /* sharedmemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sharedmemTests.m; sourceTree = "<group>"; };
+		7041A1AA29B14DE20084CAED /* sharedmemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sharedmemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7041A1AE29B14DE20084CAED /* sharedmemUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sharedmemUITests.m; sourceTree = "<group>"; };
+		7041A1B029B14DE20084CAED /* sharedmemUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sharedmemUITestsLaunchTests.m; sourceTree = "<group>"; };
+		7041A1B629B14DE20084CAED /* sharedmem Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "sharedmem Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7041A1BB29B14DE20084CAED /* SafariWebExtensionHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SafariWebExtensionHandler.h; sourceTree = "<group>"; };
+		7041A1BC29B14DE20084CAED /* SafariWebExtensionHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafariWebExtensionHandler.m; sourceTree = "<group>"; };
+		7041A1BF29B14DE20084CAED /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		7041A1C129B14DE20084CAED /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		7041A1C329B14DE20084CAED /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		7041A1C529B14DE20084CAED /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		7041A1C729B14DE20084CAED /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		7041A1C929B14DE20084CAED /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		7041A1CB29B14DE20084CAED /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		7041A1CD29B14DE20084CAED /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		7041A1CF29B14DE20084CAED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7041A1D029B14DE20084CAED /* sharedmem_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = sharedmem_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7041A17D29B14DE10084CAED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7041A19D29B14DE20084CAED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7041A1A729B14DE20084CAED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7041A1B329B14DE20084CAED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7041A17729B14DE10084CAED = {
+			isa = PBXGroup;
+			children = (
+				7041A18229B14DE10084CAED /* sharedmem */,
+				7041A1A329B14DE20084CAED /* sharedmemTests */,
+				7041A1AD29B14DE20084CAED /* sharedmemUITests */,
+				7041A1BA29B14DE20084CAED /* sharedmem Extension */,
+				7041A18129B14DE10084CAED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7041A18129B14DE10084CAED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7041A18029B14DE10084CAED /* sharedmem.app */,
+				7041A1A029B14DE20084CAED /* sharedmemTests.xctest */,
+				7041A1AA29B14DE20084CAED /* sharedmemUITests.xctest */,
+				7041A1B629B14DE20084CAED /* sharedmem Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7041A18229B14DE10084CAED /* sharedmem */ = {
+			isa = PBXGroup;
+			children = (
+				7041A18329B14DE10084CAED /* AppDelegate.h */,
+				7041A18429B14DE10084CAED /* AppDelegate.m */,
+				7041A19029B14DE10084CAED /* ViewController.h */,
+				7041A19129B14DE10084CAED /* ViewController.m */,
+				7041A19329B14DE10084CAED /* Main.storyboard */,
+				7041A19629B14DE20084CAED /* Assets.xcassets */,
+				7041A19829B14DE20084CAED /* main.m */,
+				7041A19A29B14DE20084CAED /* sharedmem.entitlements */,
+				7041A19B29B14DE20084CAED /* sharedmem.entitlements */,
+				7041A18629B14DE10084CAED /* Resources */,
+			);
+			path = sharedmem;
+			sourceTree = "<group>";
+		};
+		7041A18629B14DE10084CAED /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7041A18729B14DE10084CAED /* Main.html */,
+				7041A18A29B14DE10084CAED /* Icon.png */,
+				7041A18C29B14DE10084CAED /* Style.css */,
+				7041A18E29B14DE10084CAED /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7041A1A329B14DE20084CAED /* sharedmemTests */ = {
+			isa = PBXGroup;
+			children = (
+				7041A1A429B14DE20084CAED /* sharedmemTests.m */,
+			);
+			path = sharedmemTests;
+			sourceTree = "<group>";
+		};
+		7041A1AD29B14DE20084CAED /* sharedmemUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7041A1AE29B14DE20084CAED /* sharedmemUITests.m */,
+				7041A1B029B14DE20084CAED /* sharedmemUITestsLaunchTests.m */,
+			);
+			path = sharedmemUITests;
+			sourceTree = "<group>";
+		};
+		7041A1BA29B14DE20084CAED /* sharedmem Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7041A1BB29B14DE20084CAED /* SafariWebExtensionHandler.h */,
+				7041A1BC29B14DE20084CAED /* SafariWebExtensionHandler.m */,
+				7041A1CF29B14DE20084CAED /* Info.plist */,
+				7041A1D029B14DE20084CAED /* sharedmem_Extension.entitlements */,
+				7041A1BE29B14DE20084CAED /* Resources */,
+			);
+			path = "sharedmem Extension";
+			sourceTree = "<group>";
+		};
+		7041A1BE29B14DE20084CAED /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7041A1BF29B14DE20084CAED /* _locales */,
+				7041A1C129B14DE20084CAED /* images */,
+				7041A1C329B14DE20084CAED /* manifest.json */,
+				7041A1C529B14DE20084CAED /* background.js */,
+				7041A1C729B14DE20084CAED /* content.js */,
+				7041A1C929B14DE20084CAED /* popup.html */,
+				7041A1CB29B14DE20084CAED /* popup.css */,
+				7041A1CD29B14DE20084CAED /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7041A17F29B14DE10084CAED /* sharedmem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7041A1D729B14DE20084CAED /* Build configuration list for PBXNativeTarget "sharedmem" */;
+			buildPhases = (
+				7041A17C29B14DE10084CAED /* Sources */,
+				7041A17D29B14DE10084CAED /* Frameworks */,
+				7041A17E29B14DE10084CAED /* Resources */,
+				7041A1D629B14DE20084CAED /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7041A1B929B14DE20084CAED /* PBXTargetDependency */,
+			);
+			name = sharedmem;
+			productName = sharedmem;
+			productReference = 7041A18029B14DE10084CAED /* sharedmem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7041A19F29B14DE20084CAED /* sharedmemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7041A1DA29B14DE20084CAED /* Build configuration list for PBXNativeTarget "sharedmemTests" */;
+			buildPhases = (
+				7041A19C29B14DE20084CAED /* Sources */,
+				7041A19D29B14DE20084CAED /* Frameworks */,
+				7041A19E29B14DE20084CAED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7041A1A229B14DE20084CAED /* PBXTargetDependency */,
+			);
+			name = sharedmemTests;
+			productName = sharedmemTests;
+			productReference = 7041A1A029B14DE20084CAED /* sharedmemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7041A1A929B14DE20084CAED /* sharedmemUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7041A1DD29B14DE20084CAED /* Build configuration list for PBXNativeTarget "sharedmemUITests" */;
+			buildPhases = (
+				7041A1A629B14DE20084CAED /* Sources */,
+				7041A1A729B14DE20084CAED /* Frameworks */,
+				7041A1A829B14DE20084CAED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7041A1AC29B14DE20084CAED /* PBXTargetDependency */,
+			);
+			name = sharedmemUITests;
+			productName = sharedmemUITests;
+			productReference = 7041A1AA29B14DE20084CAED /* sharedmemUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		7041A1B529B14DE20084CAED /* sharedmem Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7041A1D329B14DE20084CAED /* Build configuration list for PBXNativeTarget "sharedmem Extension" */;
+			buildPhases = (
+				7041A1B229B14DE20084CAED /* Sources */,
+				7041A1B329B14DE20084CAED /* Frameworks */,
+				7041A1B429B14DE20084CAED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sharedmem Extension";
+			productName = "sharedmem Extension";
+			productReference = 7041A1B629B14DE20084CAED /* sharedmem Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7041A17829B14DE10084CAED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					7041A17F29B14DE10084CAED = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					7041A19F29B14DE20084CAED = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 7041A17F29B14DE10084CAED;
+					};
+					7041A1A929B14DE20084CAED = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 7041A17F29B14DE10084CAED;
+					};
+					7041A1B529B14DE20084CAED = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 7041A17B29B14DE10084CAED /* Build configuration list for PBXProject "sharedmem" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7041A17729B14DE10084CAED;
+			productRefGroup = 7041A18129B14DE10084CAED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7041A17F29B14DE10084CAED /* sharedmem */,
+				7041A19F29B14DE20084CAED /* sharedmemTests */,
+				7041A1A929B14DE20084CAED /* sharedmemUITests */,
+				7041A1B529B14DE20084CAED /* sharedmem Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7041A17E29B14DE10084CAED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7041A18B29B14DE10084CAED /* Icon.png in Resources */,
+				7041A19529B14DE10084CAED /* Main.storyboard in Resources */,
+				7041A18F29B14DE10084CAED /* Script.js in Resources */,
+				7041A18929B14DE10084CAED /* Main.html in Resources */,
+				7041A19729B14DE20084CAED /* Assets.xcassets in Resources */,
+				7041A18D29B14DE10084CAED /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7041A19E29B14DE20084CAED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7041A1A829B14DE20084CAED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7041A1B429B14DE20084CAED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7041A1C629B14DE20084CAED /* background.js in Resources */,
+				7041A1CC29B14DE20084CAED /* popup.css in Resources */,
+				7041A1CA29B14DE20084CAED /* popup.html in Resources */,
+				7041A1C229B14DE20084CAED /* images in Resources */,
+				7041A1C429B14DE20084CAED /* manifest.json in Resources */,
+				7041A1C029B14DE20084CAED /* _locales in Resources */,
+				7041A1C829B14DE20084CAED /* content.js in Resources */,
+				7041A1CE29B14DE20084CAED /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7041A17C29B14DE10084CAED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7041A19229B14DE10084CAED /* ViewController.m in Sources */,
+				7041A19929B14DE20084CAED /* main.m in Sources */,
+				7041A18529B14DE10084CAED /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7041A19C29B14DE20084CAED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7041A1A529B14DE20084CAED /* sharedmemTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7041A1A629B14DE20084CAED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7041A1AF29B14DE20084CAED /* sharedmemUITests.m in Sources */,
+				7041A1B129B14DE20084CAED /* sharedmemUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7041A1B229B14DE20084CAED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7041A1BD29B14DE20084CAED /* SafariWebExtensionHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7041A1A229B14DE20084CAED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7041A17F29B14DE10084CAED /* sharedmem */;
+			targetProxy = 7041A1A129B14DE20084CAED /* PBXContainerItemProxy */;
+		};
+		7041A1AC29B14DE20084CAED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7041A17F29B14DE10084CAED /* sharedmem */;
+			targetProxy = 7041A1AB29B14DE20084CAED /* PBXContainerItemProxy */;
+		};
+		7041A1B929B14DE20084CAED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7041A1B529B14DE20084CAED /* sharedmem Extension */;
+			targetProxy = 7041A1B829B14DE20084CAED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7041A18729B14DE10084CAED /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7041A18829B14DE10084CAED /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		7041A19329B14DE10084CAED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7041A19429B14DE10084CAED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7041A1D129B14DE20084CAED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7041A1D229B14DE20084CAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7041A1D429B14DE20084CAED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "sharedmem Extension/sharedmem_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4WNC3822Q4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "sharedmem Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "sharedmem Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.st.sharedmem.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		7041A1D529B14DE20084CAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "sharedmem Extension/sharedmem_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4WNC3822Q4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "sharedmem Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "sharedmem Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.st.sharedmem.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		7041A1D829B14DE20084CAED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = sharedmem/sharedmem.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4WNC3822Q4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = sharedmem;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.st.sharedmem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		7041A1D929B14DE20084CAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = sharedmem/sharedmem.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4WNC3822Q4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = sharedmem;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.st.sharedmem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		7041A1DB29B14DE20084CAED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4WNC3822Q4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.st.sharedmemTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sharedmem.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sharedmem";
+			};
+			name = Debug;
+		};
+		7041A1DC29B14DE20084CAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4WNC3822Q4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.st.sharedmemTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sharedmem.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sharedmem";
+			};
+			name = Release;
+		};
+		7041A1DE29B14DE20084CAED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4WNC3822Q4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.st.sharedmemUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = sharedmem;
+			};
+			name = Debug;
+		};
+		7041A1DF29B14DE20084CAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4WNC3822Q4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.st.sharedmemUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = sharedmem;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7041A17B29B14DE10084CAED /* Build configuration list for PBXProject "sharedmem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7041A1D129B14DE20084CAED /* Debug */,
+				7041A1D229B14DE20084CAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7041A1D329B14DE20084CAED /* Build configuration list for PBXNativeTarget "sharedmem Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7041A1D429B14DE20084CAED /* Debug */,
+				7041A1D529B14DE20084CAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7041A1D729B14DE20084CAED /* Build configuration list for PBXNativeTarget "sharedmem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7041A1D829B14DE20084CAED /* Debug */,
+				7041A1D929B14DE20084CAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7041A1DA29B14DE20084CAED /* Build configuration list for PBXNativeTarget "sharedmemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7041A1DB29B14DE20084CAED /* Debug */,
+				7041A1DC29B14DE20084CAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7041A1DD29B14DE20084CAED /* Build configuration list for PBXNativeTarget "sharedmemUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7041A1DE29B14DE20084CAED /* Debug */,
+				7041A1DF29B14DE20084CAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7041A17829B14DE10084CAED /* Project object */;
+}
