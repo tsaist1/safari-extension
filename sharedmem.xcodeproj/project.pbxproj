@@ -29,6 +29,7 @@
 		7041A1CA29B14DE20084CAED /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 7041A1C929B14DE20084CAED /* popup.html */; };
 		7041A1CC29B14DE20084CAED /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 7041A1CB29B14DE20084CAED /* popup.css */; };
 		7041A1CE29B14DE20084CAED /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 7041A1CD29B14DE20084CAED /* popup.js */; };
+		7041A24529B1CED40084CAED /* container-management.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7041A24429B1CED40084CAED /* container-management.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +103,35 @@
 		7041A1CD29B14DE20084CAED /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
 		7041A1CF29B14DE20084CAED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7041A1D029B14DE20084CAED /* sharedmem_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = sharedmem_Extension.entitlements; sourceTree = "<group>"; };
+		7041A1E729B157E40084CAED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7041A1E829B157E40084CAED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7041A1EC29B157E40084CAED /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		7041A1EE29B157E40084CAED /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		7041A1F029B157E40084CAED /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		7041A1F229B157E40084CAED /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		7041A1F429B157E40084CAED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7041A1F529B157E40084CAED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7041A1F829B157E40084CAED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7041A1FA29B157E50084CAED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7041A1FC29B157E50084CAED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7041A1FE29B157E50084CAED /* test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = test.entitlements; sourceTree = "<group>"; };
+		7041A1FF29B157E50084CAED /* test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = test.entitlements; sourceTree = "<group>"; };
+		7041A20829B157E60084CAED /* testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTests.m; sourceTree = "<group>"; };
+		7041A21229B157E60084CAED /* testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testUITests.m; sourceTree = "<group>"; };
+		7041A21429B157E60084CAED /* testUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testUITestsLaunchTests.m; sourceTree = "<group>"; };
+		7041A21F29B157E60084CAED /* SafariWebExtensionHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SafariWebExtensionHandler.h; sourceTree = "<group>"; };
+		7041A22029B157E60084CAED /* SafariWebExtensionHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafariWebExtensionHandler.m; sourceTree = "<group>"; };
+		7041A22329B157E60084CAED /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		7041A22529B157E60084CAED /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		7041A22729B157E60084CAED /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		7041A22929B157E60084CAED /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		7041A22B29B157E60084CAED /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		7041A22D29B157E60084CAED /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		7041A22F29B157E60084CAED /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		7041A23129B157E60084CAED /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		7041A23329B157E60084CAED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7041A23429B157E60084CAED /* test_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = test_Extension.entitlements; sourceTree = "<group>"; };
+		7041A24429B1CED40084CAED /* container-management.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "container-management.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,10 +169,15 @@
 		7041A17729B14DE10084CAED = {
 			isa = PBXGroup;
 			children = (
+				7041A24429B1CED40084CAED /* container-management.plist */,
 				7041A18229B14DE10084CAED /* sharedmem */,
 				7041A1A329B14DE20084CAED /* sharedmemTests */,
 				7041A1AD29B14DE20084CAED /* sharedmemUITests */,
 				7041A1BA29B14DE20084CAED /* sharedmem Extension */,
+				7041A1E629B157E40084CAED /* test */,
+				7041A20729B157E60084CAED /* testTests */,
+				7041A21129B157E60084CAED /* testUITests */,
+				7041A21E29B157E60084CAED /* test Extension */,
 				7041A18129B14DE10084CAED /* Products */,
 			);
 			sourceTree = "<group>";
@@ -226,6 +261,78 @@
 				7041A1C929B14DE20084CAED /* popup.html */,
 				7041A1CB29B14DE20084CAED /* popup.css */,
 				7041A1CD29B14DE20084CAED /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7041A1E629B157E40084CAED /* test */ = {
+			isa = PBXGroup;
+			children = (
+				7041A1E729B157E40084CAED /* AppDelegate.h */,
+				7041A1E829B157E40084CAED /* AppDelegate.m */,
+				7041A1F429B157E40084CAED /* ViewController.h */,
+				7041A1F529B157E40084CAED /* ViewController.m */,
+				7041A1F729B157E40084CAED /* Main.storyboard */,
+				7041A1FA29B157E50084CAED /* Assets.xcassets */,
+				7041A1FC29B157E50084CAED /* main.m */,
+				7041A1FE29B157E50084CAED /* test.entitlements */,
+				7041A1FF29B157E50084CAED /* test.entitlements */,
+				7041A1EA29B157E40084CAED /* Resources */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		7041A1EA29B157E40084CAED /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7041A1EB29B157E40084CAED /* Main.html */,
+				7041A1EE29B157E40084CAED /* Icon.png */,
+				7041A1F029B157E40084CAED /* Style.css */,
+				7041A1F229B157E40084CAED /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7041A20729B157E60084CAED /* testTests */ = {
+			isa = PBXGroup;
+			children = (
+				7041A20829B157E60084CAED /* testTests.m */,
+			);
+			path = testTests;
+			sourceTree = "<group>";
+		};
+		7041A21129B157E60084CAED /* testUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7041A21229B157E60084CAED /* testUITests.m */,
+				7041A21429B157E60084CAED /* testUITestsLaunchTests.m */,
+			);
+			path = testUITests;
+			sourceTree = "<group>";
+		};
+		7041A21E29B157E60084CAED /* test Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7041A21F29B157E60084CAED /* SafariWebExtensionHandler.h */,
+				7041A22029B157E60084CAED /* SafariWebExtensionHandler.m */,
+				7041A23329B157E60084CAED /* Info.plist */,
+				7041A23429B157E60084CAED /* test_Extension.entitlements */,
+				7041A22229B157E60084CAED /* Resources */,
+			);
+			path = "test Extension";
+			sourceTree = "<group>";
+		};
+		7041A22229B157E60084CAED /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7041A22329B157E60084CAED /* _locales */,
+				7041A22529B157E60084CAED /* images */,
+				7041A22729B157E60084CAED /* manifest.json */,
+				7041A22929B157E60084CAED /* background.js */,
+				7041A22B29B157E60084CAED /* content.js */,
+				7041A22D29B157E60084CAED /* popup.html */,
+				7041A22F29B157E60084CAED /* popup.css */,
+				7041A23129B157E60084CAED /* popup.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -359,6 +466,7 @@
 				7041A18B29B14DE10084CAED /* Icon.png in Resources */,
 				7041A19529B14DE10084CAED /* Main.storyboard in Resources */,
 				7041A18F29B14DE10084CAED /* Script.js in Resources */,
+				7041A24529B1CED40084CAED /* container-management.plist in Resources */,
 				7041A18929B14DE10084CAED /* Main.html in Resources */,
 				7041A19729B14DE20084CAED /* Assets.xcassets in Resources */,
 				7041A18D29B14DE10084CAED /* Style.css in Resources */,
@@ -465,6 +573,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				7041A19429B14DE10084CAED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7041A1EB29B157E40084CAED /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7041A1EC29B157E40084CAED /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		7041A1F729B157E40084CAED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7041A1F829B157E40084CAED /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -585,6 +709,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "sharedmem Extension/sharedmem_Extension.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4WNC3822Q4;
@@ -615,6 +740,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "sharedmem Extension/sharedmem_Extension.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4WNC3822Q4;
@@ -647,6 +773,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = sharedmem/sharedmem.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -681,6 +808,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = sharedmem/sharedmem.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
